@@ -50,7 +50,7 @@ services:
       BRAND_URL: ${BRAND_URL:-https://sitepins.com}
       BRAND_SLUG: ${BRAND_SLUG:-sitepins}
       BRAND_SUPPORT_URL: ${BRAND_SUPPORT_URL:-https://sitepins.com/contact}
-      GIT_APP_NAME: ${GIT_APP_NAME}
+      GIT_APP_NAME: ${GIT_APP_NAME:-schliesser-sitepins}
 
       BETTER_AUTH_SECRET: ${SERVICE_PASSWORD_64_BETTERAUTH}
       JWT_SECRET: ${SERVICE_PASSWORD_64_JWT}
@@ -99,7 +99,7 @@ services:
         NEXT_PUBLIC_BUCKET_URL: ${BUCKET_PUBLIC_URL:-https://s3.schliesser.dev/sitepins}
         NEXT_PUBLIC_BRAND_NAME: ${BRAND_NAME:-Sitepins}
         NEXT_PUBLIC_BRAND_URL: ${BRAND_URL:-https://sitepins.com}
-        NEXT_PUBLIC_GIT_APP_NAME: ${GIT_APP_NAME}
+        NEXT_PUBLIC_GIT_APP_NAME: ${GIT_APP_NAME:-schliesser-sitepins}
         NEXT_PUBLIC_GITLAB_CLIENT_ID: ${GITLAB_CLIENT_ID}
         NEXT_PUBLIC_BRAND_SLUG: ${BRAND_SLUG:-sitepins}
         NEXT_PUBLIC_BRAND_LOGO: /images/logo.svg
